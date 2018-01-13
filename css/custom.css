@@ -1,115 +1,123 @@
 @import url('https://fonts.googleapis.com/css?family=Nova+Square');
 @import url('https://fonts.googleapis.com/css?family=Capriola');
-
 /* @font-face {
     font-family: 'Death War';
     src: url('../fonts/Death Star.otf') format('otf');
             font-weight: 400;
             font-stretch: normal;
 x }  tried but did not work */
-body{
+
+body {
     font-family: 'Capriola', sans-serif;
     max-width: 100%;
     background-image: url("../images/wood.jpg");
     background-position: center;
     background-image: repeat;
 }
-.container{
+
+.container {
     background-color: #ffffff;
     margin: auto;
 }
-h2{
+
+h2 {
     font-family: 'Nova Square', Helvetica, sans-serif
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
 }
-.local-nav{
-margin: 0.7%;
+
+.local-nav {
+    margin: 0.7%;
 }
-.logo{
+
+.logo {
     margin: 5% 10% 5% 10%;
 }
-.nav-pic{
-height: 50px;
-width: 100px;
-border-right: 3px solid burlywood;
-border-left: 3px solid burlywood;
+
+.nav-pic {
+    height: 50px;
+    width: 100px;
+    border-right: 3px solid burlywood;
+    border-left: 3px solid burlywood;
 }
-.nav-item:hover{
+
+.nav-item:hover {
     transform: scale(1.3, 1.3);
-    
 }
-a span{
+
+a span {
     color: burlywood;
     border-radius: 10%;
     padding: 5%;
     display: block;
 }
 
-
-
-.w-90{
+.w-90 {
     margin: auto;
 }
 
-.carousel-caption{   
+.carousel-caption {
     color: white;
     background-color: rgba(222, 184, 135, 0.562);
     width: 10%;
     margin: auto;
     padding: 0px 0px 0px 0px;
 }
-.carousel-control-prev-icon{
-    background-color: burlywood;
-    padding: 10%;
-}
-.carousel-control-next-icon{
+
+.carousel-control-prev-icon {
     background-color: burlywood;
     padding: 10%;
 }
 
-.carousel-indicators li{
+.carousel-control-next-icon {
+    background-color: burlywood;
+    padding: 10%;
+}
+
+.carousel-indicators li {
     bottom: -10px;
     background-color: rgba(0, 238, 255, 0.555);
 }
-.carousel-indicators .active{
+
+.carousel-indicators .active {
     bottom: -10px;
     background-color: rgba(255, 115, 0, 0.315);
 }
 
-.car{
+.car {
     -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
- .serviceimg {
-	position: relative;
-	/* Transition property */
-	transition-property: left;
-	left: 0;
-	/* Transition duration */
-	transition-duration: 2.0s;
-	/* Transition timing function */
-	transition-timing-function: ease-in-out;
 
+.serviceimg {
+    position: relative;
+    /* Transition property */
+    transition-property: left;
+    left: 0;
+    /* Transition duration */
+    transition-duration: 2.0s;
+    /* Transition timing function */
+    transition-timing-function: ease-in-out;
 }
+
 .serviceimg:hover {
-	left: 90px;
+    left: 90px;
 }
-.mb-0{
+
+.mb-0 {
     display: block;
 }
-.mb-0:hover{
+
+.mb-0:hover {
     cursor: pointer;
 }
 
-
-
-
 #myCarousel .list-inline {
-    white-space:nowrap;
+    white-space: nowrap;
 }
 
 #myCarousel .carousel-indicators {
@@ -118,16 +126,16 @@ a span{
     width: initial;
 }
 
-#myCarousel .carousel-indicators > li {
+#myCarousel .carousel-indicators>li {
     width: initial;
     height: initial;
     text-indent: initial;
 }
 
-#myCarousel .carousel-indicators > li.active img {
+#myCarousel .carousel-indicators>li.active img {
     opacity: 0.7;
 }
 
-.pay{
+.pay {
     margin: 10% 10% 10% 15%;
 }
