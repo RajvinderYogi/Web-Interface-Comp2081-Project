@@ -19,31 +19,36 @@
 
         <header>
             <!-- Header starts here which cotains main heading and navigation-->
-            <a href="index.html">
-                <img src="images/home.png" alt="Home" height="50" width="50">
-            </a>
-            <a href="#aboutUs">
-                <img src="images/about.png" alt="Contact" height="50" width="50">
-            </a>
-            <a href="#services">
-                <img src="images/services.png" alt="Home" height="50" width="50">
-            </a>
-            <a href="#contact">
-                <img src="images/contact.png" alt="Contact" height="50" width="50">
-            </a>
-            <a href="index.html" class="logo">
-                <img src="images/automoblox_logo.jpg" alt="Automoblox Logo">
-            </a>
-            <a href="https://www.facebook.com">
-                <img src="images/fb-logo.png" alt="Facebook" height="50" width="50">
-            </a>
-            <a href="https://www.twitter.com">
-                <img src="images/twitter-logo.png" alt="Twitter" height="50" width="50">
-            </a>
-            <a href="https://www.instagram.com">
-                <img src="images/insta-logo.png" alt="Instagram" height="50" width="50">
-            </a>
-
+            <span class="col-4 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <a href="index.html" class="local-nav">
+                    <img src="images/home.png" alt="Home" height="50" width="50">
+                </a>
+                <a href="index.html#aboutUs" class="local-nav">
+                    <img src="images/about.png" alt="Contact" height="50" width="50">
+                </a>
+                <a href="index.html#services" class="local-nav">
+                    <img src="images/services.png" alt="Home" height="50" width="50">
+                </a>
+                <a href="index.html#contact" class="local-nav">
+                    <img src="images/contact.png" alt="Contact" height="50" width="50">
+                </a>
+            </span>
+            <span class="col-4 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <a href="index.html" class="logo">
+                    <img src="images/automoblox_logo.jpg" alt="Automoblox Logo">
+                </a>
+            </span>
+            <span class="col-4 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <a href="https://www.facebook.com" class="local-nav">
+                    <img src="images/fb-logo.png" alt="Facebook" height="50" width="50">
+                </a>
+                <a href="https://www.twitter.com" class="local-nav">
+                    <img src="images/twitter-logo.png" alt="Twitter" height="50" width="50">
+                </a>
+                <a href="https://www.instagram.com" class="local-nav">
+                    <img src="images/insta-logo.png" alt="Instagram" height="50" width="50">
+                </a>
+            </span>
             <nav class="nav nav-pills nav-justified col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <a class="nav-item nav-link" href="car1.html">
                     <img src="images/a9_small.jpg" class="nav-pic" alt="first car">
@@ -76,22 +81,297 @@
             </nav>
             <!-- Navigation ends here -->
         </header>
+
         <!-- Header ends here-->
-            <hr><!-- horizontal row -->
-            <main><!-- Main content of the website goes here -->
-            </main>
-            <!-- Footer starts here-->
-	        <footer class="card-footer bg-transparent border-success text-center">
-                <p><small>Rajvinder Yogi - 200353207 - COMP2081 - Advanced Web Interface Design 
-                        <a href="http://rajvinderyogi.com/" title="Personal Website">Visit My Website</a>.
-                    </small>
-                </p>
-            </footer><!-- Footer ends here-->
-        </div><!-- DIV container ends here -->
-            <!-- Scripts attached here -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-        <script src="js/custom.js"></script>
-    </body>
+        <hr>
+        <!-- horizontal row -->
+        <main>
+            <!-- Main content of the website goes here -->
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2" id="slider">
+                    <div id="myCarousel" class="carousel slide">
+                        <!-- main slider carousel items -->
+                        <div class="carousel-inner">
+                            <div class="active item carousel-item" data-slide-number="0">
+                                <img src="images/a9/a9_large0.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="1">
+                                <img src="images/a9/a9_large1.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="2">
+                                <img src="images/a9/a9_large2.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="3">
+                                <img src="images/a9/a9_large3.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="4">
+                                <img src="images/a9/a9_large4.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="5">
+                                <img src="images/a9/a9_large5.jpg" alt="" class="img-fluid">
+                            </div>
+                            <a class="carousel-control left pt-3" href="#myCarousel" data-slide="prev">
+                                <i class="fa fa-chevron-left"></i>
+                            </a>
+                            <a class="carousel-control right pt-3" href="#myCarousel" data-slide="next">
+                                <i class="fa fa-chevron-right"></i>
+                            </a>
+
+                        </div>
+                        <!-- main slider carousel nav controls -->
+
+
+                        <ul class="carousel-indicators list-inline">
+                            <li class="list-inline-item active">
+                                <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel">
+                                    <img src="images/a9/a9_small0.jpg" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel">
+                                    <img src="images/a9/a9_small1.jpg" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel">
+                                    <img src="images/a9/a9_small2.jpg" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel">
+                                    <img src="images/a9/a9_small3.jpg" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-4" data-slide-to="4" data-target="#myCarousel">
+                                    <img src="images/a9/a9_small4.jpg" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-5" data-slide-to="5" data-target="#myCarousel">
+                                    <img src="images/a9/a9_small5.jpg" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Second part about author ends here-->
+            <hr>
+            <aside class="row">
+                <!-- Fourth part about synopsis starts here-->
+                <div class="col-12">
+                    <h2 style="text-align:center;">Description</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Tristique magna sit amet purus gravida. Viverra maecenas accumsan lacus vel
+                        facilisis volutpat. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Amet venenatis
+                        urna cursus eget nunc scelerisque viverra mauris. Sit amet consectetur adipiscing elit pellentesque.
+                        Eget nunc lobortis mattis aliquam faucibus. Sit amet est placerat in egestas erat imperdiet sed.
+                        Lorem mollis aliquam ut porttitor leo a diam sollicitudin tempor. Quis blandit turpis cursus in hac
+                        habitasse platea dictumst quisque. Ac felis donec et odio pellentesque diam volutpat. At auctor urna
+                        nunc id cursus. Quis vel eros donec ac odio tempor orci dapibus ultrices. Eget mi proin sed libero
+                        enim sed faucibus turpis in. Velit aliquet sagittis id consectetur. Duis at tellus at urna condimentum.</p>
+
+                    <p>Pharetra convallis posuere morbi leo urna molestie. Sem fringilla ut morbi tincidunt augue interdum.
+                        Aenean vel elit scelerisque mauris. Neque aliquam vestibulum morbi blandit cursus risus at ultrices.
+                        Mattis aliquam faucibus purus in massa. Molestie at elementum eu facilisis sed odio. Orci eu lobortis
+                        elementum nibh tellus molestie nunc non blandit. Volutpat maecenas volutpat blandit aliquam etiam
+                        erat velit scelerisque. Volutpat commodo sed egestas egestas fringilla phasellus. Imperdiet massa
+                        tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Faucibus scelerisque eleifend donec
+                        pretium vulputate. Sit amet consectetur adipiscing elit pellentesque.</p>
+                        <aside class="row">
+                            <p class="col-4"><strong>Price:</strong> $20</p>
+                        <p class="col-4"><strong>Item No:</strong> 123456</p>
+                    <p class="col-4"><strong>Item Name:</strong> A9</p>
+                    <p class="col-4"><strong>Age:</strong> 4 &amp; up</p>
+                    </aside>
+                </div>
+            </aside>
+            <!-- Fourth part about synopsis ends here-->
+            <hr>
+            <article class="row" id="review">
+                <!-- Third part about revews and buy book starts here-->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <!-- Review section starts here -->
+                    <h2 style="text-align:center;">Reviews</h2>
+                    <div>
+                        <p class="sub-text">October 24 2016 </p>
+                        <figure class="col-6 col-sm-4 col-md-6 col-lg-4 col-xl-4">
+                            <img class="review" src="images/review-star.png" alt="review" height="25" width="25">
+                            <img class="review" src="images/review-star.png" alt="review" height="25" width="25">
+                            <img class="review" src="images/review-star.png" alt="review" height="25" width="25">
+                            <img class="review" src="images/review-star.png" alt="review" height="25" width="25">
+                            <img class="review" src="images/review-blank.png" alt="review" height="25" width="25">
+                            <figcaption>Kid 1</figcaption>
+                        </figure>
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="sub-text">October 24 2016 </p>
+                        <figure class="col-6 col-sm-4 col-md-6 col-lg-4 col-xl-4">
+                            <img class="review" src="images/review-star.png" alt="review" height="25" width="25">
+                            <img class="review" src="images/review-star.png" alt="review" height="25" width="25">
+                            <img class="review" src="images/review-blank.png" alt="review" height="25" width="25">
+                            <img class="review" src="images/review-blank.png" alt="review" height="25" width="25">
+                            <img class="review" src="images/review-blank.png" alt="review" height="25" width="25">
+                            <figcaption>Kid 2</figcaption>
+                        </figure>
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="sub-text">October 24 2016 </p>
+                        <figure class="col-6 col-sm-4 col-md-6 col-lg-4 col-xl-4">
+                            <img class="review" src="images/review-star.png" alt="review" height="25" width="25">
+                            <img class="review" src="images/review-star.png" alt="review" height="25" width="25">
+                            <img class="review" src="images/review-star.png" alt="review" height="25" width="25">
+                            <img class="review" src="images/review-blank.png" alt="review" height="25" width="25">
+                            <img class="review" src="images/review-blank.png" alt="review" height="25" width="25">
+                            <figcaption>Kid 3</figcaption>
+
+
+                        </figure>
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="sub-text">October 24 2016 </p>
+                        <figure class="col-6 col-sm-4 col-md-6 col-lg-4 col-xl-4">
+                            <img class="review" src="images/review-star.png" alt="review" height="25" width="25">
+                            <img class="review" src="images/review-star.png" alt="review" height="25" width="25">
+                            <img class="review" src="images/review-star.png" alt="review" height="25" width="25">
+                            <img class="review" src="images/review-star.png" alt="review" height="25" width="25">
+                            <img class="review" src="images/review-star.png" alt="review" height="25" width="25">
+                            <figcaption>Kid 4</figcaption>
+
+                        </figure>
+                    </div>
+                </div>
+                <!-- Review section end here -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" id="buy-now">
+                    <!-- Buy Now section starts here -->
+                    <h2 style="text-align:center;">Buy Now</h2>
+                    <form class="form-group row">
+                        <h5 class="col-12">Personal Information:</h5>
+                        <span class="col-6">
+                            <label for="FirstName" class="col-12 col-form-label">First Name</label>
+                            <input type="text" class="col-12 form-control" id="FirstName" placeholder="Ex: Raj">
+                        </span>
+                        <span class="col-6">
+                            <label for="LastName" class="col-12 col-form-label">Last Name</label>
+                            <input type="text" class=" col-12 form-control" id="LastName" placeholder="Ex: Yogi">
+                        </span>
+                        <span class="col-6">
+                            <label for="EmailId" class="col-12 col-form-label">Email</label>
+                            <input type="email" class=" col-12 form-control" id="EmailId" placeholder="Ex: abc@yahoo.com">
+                        </span>
+                        <span class="col-6">
+                            <label for="PhoneNumber" class="col-12 col-form-label">Contact Number</label>
+                            <input type="tel" class=" col-12 form-control" id="PhoneNumber" placeholder="Ex: (123)-456-7890">
+                        </span>
+                        <span class="col-12">
+                            <label class="col-12 col-form-label">Payment Method</label>
+                            <label class="form-check-label col-5">
+                                <input class="form-check-input" type="radio" name="visa" id="visa" value="option2">
+                                <img class="col-12" alt="Visa Logo" title="Visa" src="images/visa-logo.png" height="50" />
+                            </label>
+                            <label class="form-check-label col-6">
+                                <input class="form-check-input" type="radio" name="visa" id="paypal" value="option2">
+                                <img class="col-12" alt="PayPal Logo" title="PayPal" src="images/PayPal-logo.png" height="50" />
+                            </label>
+
+                        </span>
+                        <span class="col-12 pay">
+                            <button type="button" class="btn btn-success col-6" data-toggle="modal" data-target="#BillingModal">
+                                Pay Now
+                            </button>
+                        </span>
+                    </form>
+
+                    <div class="modal fade" id="BillingModal" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="BillingAddress">Billing Address</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                    <span class="col-12">
+                                        <label for="inputAddress">Address*</label>
+                                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+                                    </span>
+                                    <span class="col-12">
+                                        <label for="inputAddress2">Address 2</label>
+                                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                    </span>
+                                    <span class="col-6">
+                                        <label for="inputCity">City*</label>
+                                        <input type="text" class="form-control" id="inputCity" required>
+                                    </span>
+                                    <span class="col-4">
+                                        <label for="province">Province*</label>
+                                        <select id="province" class="form-control"  size="1">
+                                            <option selected>Choose..</option>
+                                            <option>AB</option>
+                                            <option>BC</option>
+                                            <option>MN</option>
+                                            <option>NB</option>
+                                            <option>NL</option>
+                                            <option>NS</option>
+                                            <option>ON</option>
+                                            <option>PE</option>
+                                            <option>QB</option>
+                                            <option>SK</option>
+                                        </select>
+                                    </span>
+                                    <span class="col-2">
+                                        <label for="zip">Zip*</label>
+                                        <input type="text" class="form-control" id="zip" required>
+                                    </span>
+                                    <label class="col-12 col-form-label">Note: Fields with * are mandatory.</label>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <div class="col-12">
+                                        <span class="col-6">
+                                            <button type="submit" class="btn btn-success col-4">Buy</button>
+                                        </span>
+                                        <span class="col-6">
+                                            <button type="reset" class="btn btn-danger col-4">Clear</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Buy Now section starts here -->
+            </article>
+            <!-- Third part about revews and buy book ends here-->
+
+        </main>
+        <!-- Footer starts here-->
+        <footer class="card-footer bg-transparent border-success text-center">
+            <p>
+                <small>Rajvinder Yogi - 200353207 - COMP2081 - Advanced Web Interface Design
+                    <a href="http://rajvinderyogi.com/" title="Personal Website">Visit My Website</a>.
+                </small>
+            </p>
+        </footer>
+        <!-- Footer ends here-->
+    </div>
+    <!-- DIV container ends here -->
+    <!-- Scripts attached here -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+    <script src="js/custom.js"></script>
+</body>
+
 </html>
